@@ -185,23 +185,6 @@ int main() {
 			map[i][j] = '#';
 	}
 
-	/*for (int i = 0; i < 21; i++) {
-	for (int j = 0; j < 21; j++)
-	if (i == 0 || i == 20 || j == 0 || j == 20) map[i][j] = '#';
-	}*/
-
-
-	/*for (int i = 0; i < 21; i++) {
-	for (int j = 0; j < 21; j++) {
-	if (rand() % 100 + 1 < chance)
-	map[i][j] = '#';
-	}
-	}*/
-
-	//map[10][10] = 'A';
-
-	//map[rand() % 21][rand() % 21] = '#';
-
 	do {
 		xrand = rand() % 19 + 1;
 		yrand = rand() % 19 + 1;
